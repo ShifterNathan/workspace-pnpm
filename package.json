@@ -1,0 +1,17 @@
+{
+  "name": "consulper_uy_remastered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "backend/*",
+    "frontend/*"
+  ],
+  "scripts": {
+    "dev:back": "pnpm --filter=backend run start:dev",
+    "dev:front": "pnpm --filter=frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
